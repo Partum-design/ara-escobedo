@@ -111,13 +111,13 @@ header.scrolled {
 }
 
 .logo img {
-  height: 90px; /* MUCH BIGGER LOGO */
+  height: 130px; /* EVEN BIGGER LOGO */
   width: auto;
   transition: var(--transition-smooth);
-  filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.5));
+  /* filter removed as per request */
 }
 header.scrolled .logo img {
-  height: 70px;
+  height: 90px;
 }
 
 .nav-links {
@@ -431,9 +431,9 @@ header.scrolled .logo img {
   margin-bottom: 60px;
 }
 .footer-logo img {
-  height: 110px; /* Big Footer Logo */
+  height: 160px; /* Big Footer Logo Increased */
   margin-bottom: 20px;
-  filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5));
+  /* filter removed as per request */
 }
 .footer-col h4 {
   font-size: 1.5rem;
