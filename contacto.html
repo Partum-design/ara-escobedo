@@ -41,36 +41,58 @@
         
         <div class="grid-2" style="background: var(--color-gray-bg); border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-premium);" data-aos="zoom-in">
           
+          <!-- Contact Form Section -->
           <div style="padding: 60px 50px;">
             <h1 class="section-title text-primary" style="margin-bottom: 10px; font-size: 3rem;">Hablemos <span class="text-gold">Hoy</span></h1>
             <p style="color: var(--color-text-dark); font-size: 1.15rem; margin-bottom: 40px;">
-              Comencemos hoy mismo a planificar tu tranquilidad y seguridad económica. Estoy aquí para aclarar tus dudas y trazar el mejor camino financiero para ti.
+              Déjame un mensaje y me pondré en contacto contigo lo antes posible para trazar tu nuevo plan financiero.
             </p>
             
-            <div style="display: flex; flex-direction: column; gap: 20px;">
-              <a href="tel:5521146785" class="btn btn-outline" style="border-color: var(--color-primary); color: var(--color-primary); justify-content: flex-start; padding: 15px 30px;">
-                <i class="fa-solid fa-phone" style="font-size: 1.5rem; color: var(--color-gold); width: 30px;"></i> 
-                <span style="font-size: 1.2rem; font-weight: 600;">55 2114 6785</span>
-              </a>
-              <a href="https://wa.me/525521146785?text=Hola%20Ara" class="btn btn-outline" style="border-color: var(--color-primary); color: var(--color-primary); justify-content: flex-start; padding: 15px 30px;">
-                <i class="fa-brands fa-whatsapp" style="font-size: 1.5rem; color: #25d366; width: 30px;"></i> 
-                <span style="font-size: 1.2rem; font-weight: 600;">Chat WhatsApp</span>
-              </a>
-              <div style="display: flex; gap: 15px; margin-top: 10px;">
-                <a href="https://www.facebook.com/araescobedoagenteprofesionaldeseguros/" target="_blank" class="social-circle" style="background: var(--color-primary); width: 60px; height: 60px; font-size: 1.5rem;">
+            <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+              <div>
+                <label for="name" style="display: block; font-weight: 600; margin-bottom: 5px; color: var(--color-primary);">Nombre completo *</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 12px 15px; border: 1px solid var(--color-gray-dark); border-radius: 8px; font-family: var(--font-body); outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--color-gold)'" onblur="this.style.borderColor='var(--color-gray-dark)'">
+              </div>
+              
+              <div class="grid-2" style="gap: 20px;">
+                <div>
+                  <label for="phone" style="display: block; font-weight: 600; margin-bottom: 5px; color: var(--color-primary);">Teléfono *</label>
+                  <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 12px 15px; border: 1px solid var(--color-gray-dark); border-radius: 8px; font-family: var(--font-body); outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--color-gold)'" onblur="this.style.borderColor='var(--color-gray-dark)'">
+                </div>
+                <div>
+                  <label for="email" style="display: block; font-weight: 600; margin-bottom: 5px; color: var(--color-primary);">Correo Electrónico</label>
+                  <input type="email" id="email" name="email" style="width: 100%; padding: 12px 15px; border: 1px solid var(--color-gray-dark); border-radius: 8px; font-family: var(--font-body); outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--color-gold)'" onblur="this.style.borderColor='var(--color-gray-dark)'">
+                </div>
+              </div>
+              
+              <div>
+                <label for="message" style="display: block; font-weight: 600; margin-bottom: 5px; color: var(--color-primary);">Tu mensaje *</label>
+                <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 12px 15px; border: 1px solid var(--color-gray-dark); border-radius: 8px; font-family: var(--font-body); resize: vertical; outline: none; transition: border-color 0.3s;" onfocus="this.style.borderColor='var(--color-gold)'" onblur="this.style.borderColor='var(--color-gray-dark)'"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold" style="width: 100%; margin-top: 10px; border-radius: 8px;">Enviar Mensaje</button>
+            </form>
+            
+            <div style="display: flex; gap: 15px; margin-top: 40px; justify-content: center;">
+                <a href="https://www.facebook.com/araescobedoagenteprofesionaldeseguros/" target="_blank" class="social-circle" style="background: var(--color-primary); width: 50px; height: 50px; font-size: 1.2rem;">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/retiro_y_seguros_con_ara" target="_blank" class="social-circle" style="background: var(--color-primary); width: 60px; height: 60px; font-size: 1.5rem;">
+                <a href="https://www.instagram.com/retiro_y_seguros_con_ara" target="_blank" class="social-circle" style="background: var(--color-primary); width: 50px; height: 50px; font-size: 1.2rem;">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
-              </div>
             </div>
           </div>
           
-          <div style="background: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80') center/cover; min-height: 400px; display: flex; align-items: flex-end; padding: 40px;">
-             <div style="background: rgba(11,26,46,0.9); padding: 20px 30px; border-radius: 10px; border-left: 4px solid var(--color-gold); backdrop-filter: blur(5px);">
-               <h3 class="text-white" style="margin-bottom: 5px;">Ara Escobedo</h3>
-               <p class="text-gold" style="margin: 0;">Asesor Financiero Certificado</p>
+          <!-- Image Section -->
+          <div style="background: url('./img/contact.png') center/cover; min-height: 400px; display: flex; align-items: flex-end; padding: 40px;">
+             <div style="background: rgba(11,26,46,0.9); padding: 25px 30px; border-radius: 10px; border-left: 4px solid var(--color-gold); backdrop-filter: blur(5px); width: 100%;">
+               <h3 class="text-white" style="margin-bottom: 15px;">Información Directa</h3>
+               <p style="color: rgba(255,255,255,0.8); margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                 <i class="fa-solid fa-phone text-gold"></i> 55 2114 6785
+               </p>
+               <p style="color: rgba(255,255,255,0.8); margin-bottom: 0; display: flex; align-items: center; gap: 10px;">
+                 <i class="fa-brands fa-whatsapp text-gold"></i> Agenda por WhatsApp
+               </p>
              </div>
           </div>
 

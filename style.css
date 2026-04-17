@@ -27,6 +27,7 @@
 }
 
 html {
+  font-size: 14px; /* Default is 16px, this shrinks all rem units globally */
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -35,7 +36,8 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-white);
   color: var(--color-text-dark);
-  line-height: 1.7;
+  font-size: 15px; /* Reducción general de tamaño de letra */
+  line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
@@ -48,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  text-align: justify; /* Requirement: Justificado */
+  text-align: justify;
   margin-bottom: 20px;
 }
 
